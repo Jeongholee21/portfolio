@@ -1,3 +1,49 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 42px;
+    background-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 60px;
+    color: darkblue;
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+.bottom-line {
+    margin: 10px;
+    border-bottom: 3px solid;
+    border-bottom-color: aqua;
+    margin: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: aqua;
+}
