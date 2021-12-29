@@ -3,75 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: ivory;
 }
-
 header {
-    
+    padding: 20px 35px 20px 0px;
     background-color: darkblue;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-
-header a {
-    color: darkblue;
-    text-decoration: none;
-}
-
 header h1 {
     font-weight: bold;
     font-size: 42px;
     background-color: aqua;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 5px 10px 5px 60px;
+    padding: 5px 10px 5px 50px;
 }
-
-header nav {
-    margin-top: 15px;
-    margin-right: 50px;
+header a {
+    color: darkblue;
+    text-decoration: none;
 }
-
-.bottom-line {
-    margin: 10px;
-    border-bottom: 3px solid;
-    border-bottom-color: aqua;
-    margin: 10px;
-}
-
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
 }
-
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     color: aqua;
 }
-
+.bottom-line {
+    margin: 10px;
+    border-bottom: 3px solid;
+    border-bottom-color: aqua;
+}
+.bottom-line-dark {
+    margin: 10px;
+    border-bottom: 3px solid;
+    border-bottom-color: darkblue;
+} 
 .subtitle-background {
-    padding: 100px;
-    display: flex;
+    padding: 150px 100px 50px 100px;
     background-image: url("../assets/picture/background.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
 }
-
-.subtitle {
+.flex-row {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+.subtitle {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     background-color: aqua;
     color: darkblue;
-    position: absolute;
-    bottom: 30px;
-    right: 90px;
-  }
+}
+.introduce {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.side {
+    width: 15%;
+    margin: 35px 20px;
+    text-align: right;
+    font-size: 28px;  
+    color: darkblue;
+    border-right: 5px solid;
+    padding-right: 15px;
+}
+.content {
+    margin: 35px 20px 60px;
+    width: 70%;
+    font-size: 16px;
+    color: darkblue;
+}
+/* CONTACT */
+.contact {
+    padding: 20px 35px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact h2 {
+    font-weight: bold;
+    font-size: 42px;
+}
+.contact a {
+    text-decoration: none;
+}
+.info ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.info ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: black;
+}
