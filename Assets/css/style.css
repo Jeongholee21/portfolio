@@ -51,7 +51,7 @@ nav a:hover {
 /* SUBTITLE */
 .subtitle-background {
     padding: 50px;
-    background-image: url("../assets/picture/nightsky.jpeg");
+    background-image: url("../picture/nightsky.jpeg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,19 +128,19 @@ section {
 }
 /* IAMGES */
 .surf-report{
-    background-image: url("../assets/picture/surf.jpg");
+    background-image: url("../picture/surf.jpg");
 }
 .led-wall {
-    background-image: url("../assets/picture/LED.jpg");
+    background-image: url("../picture/LED.jpg");
 }
 .calculator {
-    background-image: url("../assets/picture/calculator.jpg");
+    background-image: url("../picture/calculator.jpg");
 }
 .pastel-puzzels {
-    background-image: url("../assets/picture/pastel.jpg");
+    background-image: url("../picture/pastel.jpg");
 }
 .run-buddy {
-    background-image: url("../assets/picture/run-buddy.jpg");
+    background-image: url("../picture/run-buddy.jpg");
 }
 /* CONTACT */
 address {
