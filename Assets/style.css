@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #FFD100;
+    --secondary-color: #2774AE;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ body {
 /* NAVIGATION */
 header {
     padding: 20px 35px 20px 0px;
-    background-color: darkblue;
+    background-color: var(--secondary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -31,15 +36,17 @@ nav {
 nav a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
-    text-decoration: none;
+    text-decoration: underline solid #FFD100 3px;
+    text-underline-offset: 3px;
 }
 nav a:hover {
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
+    transition: 1s;
 }
 /* SUBTITLE */
 .subtitle-background {
@@ -61,12 +68,13 @@ nav a:hover {
     font-weight: bold;
     font-size: 18px;
     background-color: white;
-    color: darkblue;
+    color: var(--secondary-color);
     margin: auto 0 0 auto;
+    padding: 5px;
     border-radius: 2%;
 }
 /* ABOUT ME */
-.introduce {
+section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -76,7 +84,7 @@ nav a:hover {
     margin: 35px 20px 20px;
     text-align: right;
     font-size: 22px;  
-    color: darkblue;
+    color: var(--secondary-color);
     border-right: 5px solid;
     padding-right: 15px;
 }
@@ -84,14 +92,9 @@ nav a:hover {
     margin: 35px 20px 20px;
     width: 70%;
     font-size: 16px;
-    color: darkblue;
+    color: var(--secondary-color);
 }
 /* WORKING */
-.workings {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 .projects {
     margin: 35px 20px 60px;
     width: 70%;
@@ -103,7 +106,7 @@ nav a:hover {
 .project {
     width: 48%;
     height: 200px;
-    border: 5px solid aqua;
+    border: 5px solid var(--primary-color);
     margin: 1%;
     text-decoration: none;
     display: flex;
@@ -117,7 +120,7 @@ nav a:hover {
 }
 .project div {
     padding: 10px;
-    background-color: aqua;
+    background-color: var(--primary-color);
 }
 .project:first-child {
     height: 400px;
@@ -140,32 +143,28 @@ nav a:hover {
     background-image: url("../assets/picture/run-buddy.jpg");
 }
 /* CONTACT */
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 address {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 address a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
-    text-decoration: none;
+    text-decoration: underline solid #FFD100 3px;
+    text-underline-offset: 3px;
 }
 address a:hover {
-    background: #fce138;
-    color: #024e76;
+    background: var(--primary-color);
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
+    transition: 1s;
 }
 /* FOOTER */
-footer  {
-    font-size: 24px;
+footer {
+    font-size: 16px;
     text-align: center;
 }
 
@@ -205,7 +204,7 @@ footer  {
         margin: 20px 0px;
         padding: 0px;
         border-right: none;
-        border-bottom: 5px solid darkblue;
+        border-bottom: 5px solid var(--secondary-color);
         text-align: center;
     }
     .selfi img{

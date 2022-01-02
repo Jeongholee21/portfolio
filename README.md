@@ -6,11 +6,10 @@
 ### First Portfolio using HTML and CSS
 </br>
 
-- [ ] add photo
-- [ ] link naviation
-- [ ] UI scroll
-- [ ] Media Queries
-- [ ] Image Hover
+- [x] add photo
+- [x] link naviation
+- [x] Media Queries
+- [x] Image Hover
   
 # Live Website
 + https://jeongholee21.github.io/portfolio/
@@ -22,7 +21,7 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
-
+****
 ## Acceptance Criteria
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -39,3 +38,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
+# Portfolio Demo
+![Portfolio Demo](https://github.com/Jeongholee21/portfolio/blob/main/Assets/picture/02-advanced-css-homework-demo.gif).
+
+# Resources
+### [W3schools](https://www.w3schools.com)
+### [Font Awesome](https://fontawesome.com/)
