@@ -35,7 +35,7 @@ nav a {
     color: white;
     text-decoration: none;
 }
-nav a:hover{
+nav a:hover {
     background: #fce138;
     color: #024e76;
     border-radius: 15px;
@@ -110,6 +110,10 @@ nav a:hover{
     align-items: flex-end;
     background-size: 100%;
     padding: 0 0 20px 0;
+    opacity: 0.5;
+}
+.projects :hover {
+    opacity: 1;
 }
 .project div {
     padding: 10px;
@@ -176,8 +180,18 @@ footer  {
 }
 /* MAX 768px */
 @media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    header h1 {
+        padding: 5px 10px 5px 10px;
+    }
+
     nav {
-        width: 100%;
+        width: 80%;
+        margin-top: 20px;
         justify-content: space-around;
     }
     .subtitle-background {
@@ -188,32 +202,25 @@ footer  {
     }
     .side {
         width: 40%;
-        margin: 15px 0px;
+        margin: 20px 0px;
         padding: 0px;
         border-right: none;
         border-bottom: 5px solid darkblue;
         text-align: center;
     }
-}
-/* MAX 575px */
-@media screen and (max-width: 575px) {
-    header {
-        padding: 20px 0px;
-        flex-direction: column;
-        align-items: center;
-    }
-    header h1 {
-        padding: 5px 10px 5px 10px;
-    }
-    nav {
-        width: 100%;
-        align-items: center;
-        flex-direction: column;
-    }
     .selfi img{
-        margin-left: 0px;
+        margin: 0px 0px 20px 0px;
     }
     .subtitle {
         margin: 0px;
+    }
+}
+/* MAX 575px */
+@media screen and (max-width: 575px) {
+    
+    nav {
+        margin-top: 20px;
+        align-items: center;
+        flex-direction: column;
     }
 }
