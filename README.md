@@ -1,5 +1,5 @@
 # Name  
-## Advanced CSS: Portfolio
+### Advanced CSS: Portfolio
 </br>
 
 # Description
@@ -39,7 +39,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 # Portfolio Demo
-![Portfolio Demo](https://github.com/Jeongholee21/portfolio/blob/main/Assets/picture/02-advanced-css-homework-demo.gif).
+![Portfolio Demo](https://github.com/Jeongholee21/portfolio/blob/main/Assets/picture/02-advanced-css-homework-demo.gif)
 
 # Resources
 ### [W3schools](https://www.w3schools.com)
