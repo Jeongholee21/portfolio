@@ -127,8 +127,8 @@ section {
     flex: 1 0 90%; 
 }
 /* IAMGES */
-.surf-report{
-    background-image: url("../picture/surf.jpg");
+.robot-gladiators{
+    background-image: url("../picture/robots.png");
 }
 .led-wall {
     background-image: url("../picture/LED.jpg");
