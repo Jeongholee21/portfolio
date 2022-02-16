@@ -127,11 +127,11 @@ section {
     flex: 1 0 90%; 
 }
 /* IAMGES */
+.holimovie {
+    background-image: url("https://raw.githubusercontent.com/scarlinj/Project-One/main/assets/images/city-year.png");
+}
 .robot-gladiators{
     background-image: url("../picture/robots.png");
-}
-.led-wall {
-    background-image: url("../picture/LED.jpg");
 }
 .calculator {
     background-image: url("../picture/calculator.jpg");
